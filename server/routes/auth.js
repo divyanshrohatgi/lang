@@ -1,18 +1,18 @@
+// routes/auth.js
 const express = require('express');
 const {
   register,
   login,
   logout,
   getMe,
-  forgotPassword,
-  resetPassword,
   updateDetails,
-  updatePassword
+  updatePassword,
+  forgotPassword,
+  resetPassword
 } = require('../controllers/auth');
+const { protect } = require('../middleware/auth');
 
 const router = express.Router();
-
-const { protect } = require('../middleware/auth');
 
 router.post('/register', register);
 router.post('/login', login);
