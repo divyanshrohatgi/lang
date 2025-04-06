@@ -1,6 +1,6 @@
 # Language Exchange Platform
 
-This is the backend for the Language Exchange Platform, a web application that connects users who want to teach and learn different languages. The platform enables seamless communication between users, powered by AI translation and a recommendation system, with a modern chat interface.
+This is a  Language Exchange Platform, a web application that connects users who want to teach and learn different languages. The platform enables seamless communication between users, powered by AI translation and a recommendation system, with a modern chat interface.
 
 ## Features
 
